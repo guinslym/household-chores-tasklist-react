@@ -1,0 +1,8 @@
+{
+  "preset": [
+    "react-native",
+    "react-dom",
+    "flow"
+  ],
+  "retainLines": true
+}
