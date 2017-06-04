@@ -1,0 +1,9 @@
+.Schedule__list {
+    border: 1px solid #ccc;
+    display: flex;
+}
+
+.Schedule__list>* {
+    border-right: 1px solid #ccc;
+    padding: 2rem 2rem 2rem 1rem;
+}

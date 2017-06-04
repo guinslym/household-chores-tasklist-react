@@ -2,7 +2,7 @@
 
 import React, { Component, PureComponent } from "react";
 import PropTypes from "prop-types";
-// import "./App.css";
+import "./Schedule.css";
 
 const repeatElement = function(
   el: string,
@@ -15,7 +15,10 @@ const repeatElement = function(
     arr.push(
       React.createElement(
         el,
-        { className: classes && classes.join(" ") },
+        {
+          key: times,
+          className: classes && classes.join(" ")
+        },
         content
       )
       // <span key={times} className={classes && classes.join(" ")}>
